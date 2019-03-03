@@ -133,9 +133,7 @@ namespace RWGAnalyzer
             string[] result;
             int xSize = 8192;
             int zSize = 8192;
-
-            fpfn = worldFolder + "\\biomes.png";
-                        
+                                    
             using (Windows.Storage.Streams.IRandomAccessStream fileStream =
             await biomesMapFile.OpenAsync(Windows.Storage.FileAccessMode.Read))
             {
