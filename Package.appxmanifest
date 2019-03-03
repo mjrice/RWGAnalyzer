@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
-  <Identity Name="cccd2bda-c7b5-4220-950b-4b4f1b1f44cf" Publisher="CN=mrice" Version="1.0.1.0" />
+  <Identity Name="cccd2bda-c7b5-4220-950b-4b4f1b1f44cf" Publisher="CN=mrice" Version="1.0.9.0" />
   <mp:PhoneIdentity PhoneProductId="cccd2bda-c7b5-4220-950b-4b4f1b1f44cf" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>RWGAnalyzer</DisplayName>
@@ -16,7 +16,7 @@
   <Applications>
     <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="RWGAnalyzer.App">
       <uap:VisualElements DisplayName="RWGAnalyzer" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="Random World Generator analyzer for the game 7 Days To Die.  Written by Marty Rice" BackgroundColor="transparent">
-        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png">
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" Square71x71Logo="Assets\SmallTile.png">
         </uap:DefaultTile>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
       </uap:VisualElements>
