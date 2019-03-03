@@ -1,0 +1,27 @@
+﻿<Page
+    x:Class="RWGAnalyzer.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:RWGAnalyzer"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Margin="0,0,0,10">
+        <Button Content="Select World..." HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Border BorderBrush="White" BorderThickness="1" HorizontalAlignment="Left" Height="220" Margin="10,50,0,0" VerticalAlignment="Top" Width="800"/>
+        <Rectangle Fill="#404040" HorizontalAlignment="Left" Margin="10,82,0,0" Stroke="Black" VerticalAlignment="Top" Width="800" Height="160" />
+        <TextBlock Name="TextBlockSummary" HorizontalAlignment="Left" Margin="10,82,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="160" Width="800" Foreground="#40ff40"/>
+        <TextBox Name="SummaryHeading" IsReadOnly="True" HorizontalAlignment="Left" Margin="10,50,0,0" BorderThickness="1" TextWrapping="NoWrap" Text="World Summary:" VerticalAlignment="Top" Width="800"/>
+
+        <Rectangle Fill="#404060" HorizontalAlignment="Left" Margin="10,250,0,0" Stroke="Black" VerticalAlignment="Top" Width="800" Height="553" />
+        <TextBlock Name="TextBlockPrefabMap" HorizontalAlignment="Left" Margin="10,250,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="553" Width="791" FontFamily="Courier New" Foreground="#ffffff"/>
+
+        <Rectangle Fill="#405060" HorizontalAlignment="Left" Margin="820,250,0,0" Stroke="Black" VerticalAlignment="Top" Width="800" Height="553" />
+        <TextBlock Name="TextBlockPrefabList" HorizontalAlignment="Left" Margin="836,250,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="553" Width="754" FontFamily="Courier New" Foreground="#ffffff"/>
+
+        <Image Name="BiomesImage" HorizontalAlignment="Left" Height="160" Margin="820,82,0,0" VerticalAlignment="Top" Width="160" />
+
+
+    </Grid>
+</Page>

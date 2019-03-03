@@ -1,0 +1,1 @@
+C:\Users\mrice\Documents\GitHub\RWGAnalyzer\RWGAnalyzer\RWGAnalyzer.csproj;x86

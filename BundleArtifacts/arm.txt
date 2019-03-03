@@ -1,0 +1,2 @@
+MainPackage=C:\Users\mrice\Documents\GitHub\RWGAnalyzer\RWGAnalyzer\bin\ARM\Release\RWGAnalyzer_1.0.1.0_ARM.appx
+SymbolPackage=C:\Users\mrice\Documents\GitHub\RWGAnalyzer\RWGAnalyzer\AppPackages\RWGAnalyzer_1.0.1.0_Test\RWGAnalyzer_1.0.1.0_ARM.appxsym
